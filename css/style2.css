@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root{
+    --primary-color: #011778;
+}
+
+body{
+    font-family: Lato;
+    background: #bf7f11;
+}
+/* complaints */
+.complaints{
+    width: 75%;
+    height: 500px;
+    margin: 7% auto;
+    height: 40%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+#textarea{
+    width: 85%;
+    border-radius: 0.35rem;
+    margin: 5% 5% 5% 5%;
+}
+#app button{
+    width: 15%;
+    display: flex;
+    padding: 10px 35%;
+    font-size: 17px;
+    font-weight: 600;
+    background: #09084F;
+    border-radius: 5px;
+    color: #fff;
+}
+#app button:hover{
+    background: #4866EC;
+}
+/* index in admins */
+.ikps{
+    width: 95%;
+    margin: 3% auto;
+    z-index: 1;
+    background: #fff;
+}
+#smenu{
+    width: 0;
+    
+}
+/* from side menu in admins/kps admin */
+
+.navheader {
+    height: 108.6%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 6%;
+    left: 3%;
+    background-color: #09084F;
+    overflow-x: hidden;
+    transition: 0.7s;
+    padding-top: 40px;
+  }
+  
+  .navheader a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.5s;
+  }
+  .navheader a:hover {
+    color: #FF0000;
+  }
+  
+  .navheader .closebtn {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 32px;
+    margin-left: 46px;
+  }
+  
+  .openmenu {
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #09084F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openmenu:hover {
+    background-color:	#0000FF;
+  }
+  
+  #nav-toggle-label {
+    transition: margin-left .6s;
+    padding: 18px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .navheader {padding-top: 15px;}
+    .navheader a {font-size: 18px;}
+  }
